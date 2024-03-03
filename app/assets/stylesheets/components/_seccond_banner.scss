@@ -1,0 +1,13 @@
+// .size-tooltip{
+//   font-size: 20px;
+// }
+
+
+// data-bs-toggle[tooltip]  {
+//   font-size: 16px;
+//   color:red;
+// }
+.custom-tooltip {
+  --bs-tooltip-bg: var(--bd-violet-bg);
+  --bs-tooltip-color: var(--bs-white);
+}

@@ -1,0 +1,17 @@
+<h1>Find a workspace for all your needs</h1>
+
+<div class="card-container">
+  <% @offices.each do |office| %>
+    <a href="<%= office_path(office) %>">
+      <div class="card">
+        <% if office.photos.attached? %>
+          <%= cl_image_tag office.photos.first.key, style: "width: 395px; height: 320px;" %>
+        <% end %>
+        <div class="card-body">
+          <h2 class="card-title"><%= office.name %></h2>
+          <p class="card-text"><%= office.description %></p>
+        </div>
+      </div>
+    </a>
+  <% end %>
+</div>

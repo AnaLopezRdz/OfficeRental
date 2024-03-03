@@ -1,0 +1,71 @@
+// Import page-specific CSS files here.
+@import "home";
+@import "show";
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin-top: 20px;
+  a {
+    text-decoration: none;
+  }
+}
+
+.card {
+  width: 400px;
+  height: 450px;
+  border: none;
+  background-color: white;
+  text-align: left;
+  margin-left: 57px;
+
+  img {
+    border-radius: 5px;
+    box-shadow: 0 6px 8px rgba(0, 0, 0.2, 0.2);
+    transition: transform 0.2s ease-in-out;
+  }
+  img:hover {
+    transform: scale(1.02);
+  }
+  h2:hover {
+    text-decoration: underline;
+  }
+}
+
+
+h1 {
+text-align: center;
+color: #002B5B;
+font-weight: bold;
+font-size: 30px;
+margin-top: 30px;
+}
+
+h2 {
+  font-size: 20px;
+  text-decoration: none;
+}
+
+p {
+  font-size: 15px;
+  color: #1d1c1a;
+  text-decoration: none;
+  text-align: justify;
+  max-height: 3.6em; /* Adjust the value to limit to two lines */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* Limit to two lines */
+  -webkit-box-orient: vertical;
+}
+
+.btn-primary {
+  background-color: #002B5B;
+  border: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+.li{
+  color: #1d1c1a;
+}

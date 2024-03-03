@@ -1,0 +1,27 @@
+.opacity-photo{
+  opacity: 1;
+  &:hover{
+    opacity: 0.8;
+  }
+}
+
+.scroll-container {
+  height: 440px;
+  overflow: auto;
+}
+#h1onphoto{
+    color:white;
+
+  }
+// .avatar-in-show{
+//   .avatar{
+
+//   }
+// }
+
+.avatarito{
+  width: 60px;
+  height:60px;
+  border-radius: 50%;
+  object-fit: cover;
+}

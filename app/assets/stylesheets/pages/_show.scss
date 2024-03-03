@@ -1,0 +1,115 @@
+// .info{
+//   display: flex;
+//   justify-content: space-between;
+// }
+// .descricao{
+//   height: 100vh;
+//   position: sticky;
+//   top: 0;
+// }
+
+.carousel-control-prev-icon{
+  position: relative;
+  left: 30px;
+}
+.carousel-control-next-icon{
+  position: relative;
+  right: 30px;
+}
+.title{
+ display: flex;
+ justify-content:space-between;
+//  align-items: center;
+ float: left;
+ margin-left: 114px;
+ margin-top: 40px;
+ margin-bottom: 0px;
+}
+
+.d-block {
+  object-fit: cover;
+  height: 550px;
+}
+input[type=submit]{
+  width: 25em;
+  height: 3em;
+  border-radius: 5px;
+  border: none;
+  margin-right: 6px;
+  background-color: #ff8b3d;
+  color:#fffaf1;
+}
+.form_booking{
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.price{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1px;
+}
+.fee{
+  margin-top: 1px;
+  margin-bottom: 1px;
+  display: flex;
+  justify-content: space-between;
+}
+.total{
+  margin-top: 1px;
+  display: flex;
+  justify-content: space-between;
+}
+.border_booking{
+  border: 1px solid rgb(221, 221, 221);
+  border-radius: 12px;
+  padding: 24px;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 6px 16px;
+  // margin-top: -250px;
+  // margin-left: -21px;
+  margin-right: 40px;
+  position: sticky;
+  // height: 110vh;
+  // bottom: 400px;
+  top: 0;
+
+}
+
+h5{
+justify-content: flex-end;
+}
+.dropdown{
+  display: flex;
+}
+.dropdown-delete{
+  border-radius: 10px;
+  display: inline-block;
+  // margin-right: 115px;
+  // margin-top: 74px;
+  margin-left:10px;
+  margin-right: -968;
+  margin-top: 74px;
+}
+.drop{
+  width: 50px;
+  // background-color: #ff8b3d;
+  color: #002B5B;
+}
+.dropdown-share{
+  margin-right: 115px;
+  margin-top: 74px;
+  display: inline-block;
+}
+.dropdown-menu{
+  text-decoration: none;
+  color: #002B5B;
+}
+.adress_description{
+  margin-top: 4px;
+  margin-left: 24px;
+}
+.review {
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin: 10px;
+}
